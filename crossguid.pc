@@ -1,0 +1,9 @@
+prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libcrossgui
+Description: CrossGuid is a minimal, cross platform, C++ GUID library. 
+Version: 1.0.0
+Libs: -L${libdir} libcrossguid.a
+Cflags: -I${includedir}
